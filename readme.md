@@ -1,21 +1,21 @@
-## Nome della tabella: `Automobili`
+## Table Name: `Cars`
 
-## Colonne della tabella
+## Table Columns
 `
 - ID (BIGINT) - primary key - auto_increment - NOT NULL
-- Marca (VARCHAR(20)) - NOT NULL
-- Modello (VARCHAR(150)) - NOT NULL
-- Colore (VARCHAR(50)) - NOT NULL
-- Motore (VARCHAR(50)) - NOT NULL
-- Cilindrata (INT) - NOT NULL
-- Potenza CV (INT) - NOT NULL
-- Cambio (VARCHAR(50)) - NOT NULL
-- Emissioni CO2 (DECIMAL(6, 2)) - NOT NULL
-- Carburante (VARCHAR(50)) - NOT NULL
-- Chilometri (INT) - DEFAULT(0)
-- Data immatricolazione (DATE) - NULL
-- Stato (VARCHAR(50)) - NULL
-- Accessori (TEXT) - NULL
-- Prezzo (INT) - NOT NULL
-- Disponibilità (TINYINT) - DEFAULT(1)
+- Brand (VARCHAR(20)) - NOT NULL
+- Model (VARCHAR(150)) - NOT NULL
+- Color (VARCHAR(50)) - NOT NULL
+- Engine (VARCHAR(50)) - NOT NULL
+- Displacement (INT) - NOT NULL
+- Horsepower (INT) - NOT NULL
+- Transmission (VARCHAR(50)) - NOT NULL
+- CO2_Emissions (DECIMAL(6, 2)) - NOT NULL
+- Fuel_Type (VARCHAR(50)) - NOT NULL
+- Mileage (INT) - DEFAULT(0)
+- Registration_Date (DATE) - NULL
+- Status (VARCHAR(50)) - NULL
+- Accessories (TEXT) - NULL
+- Price (INT) - NOT NULL
+- Availability (TINYINT) - DEFAULT(1)
 `
