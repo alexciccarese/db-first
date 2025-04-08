@@ -2,20 +2,20 @@
 
 ## Colonne della tabella
 `
-- ID (BIGINT)
-- Marca (VARCHAR(20))
-- Modello (VARCHAR(150))
-- Colore (VARCHAR(50))
-- Motore (VARCHAR(50))
-- Cilindrata (INT)
-- Potenza CV (INT)
-- Cambio (VARCHAR(50))
-- Emissioni CO2 (DECIAML(6, 2))
-- Carburante (VARCHAR(50))
-- Chilometri (INT)
-- Data immatricolazione (DATE)
-- Stato (VARCHAR(50))
-- Accessori (TEXT)
-- Prezzo (INT)
-- Disponibilità (TINYINT)
+- ID (BIGINT) - primary key - auto_increment - NOT NULL
+- Marca (VARCHAR(20)) - NOT NULL
+- Modello (VARCHAR(150)) - NOT NULL
+- Colore (VARCHAR(50)) - NOT NULL
+- Motore (VARCHAR(50)) - NOT NULL
+- Cilindrata (INT) - NOT NULL
+- Potenza CV (INT) - NOT NULL
+- Cambio (VARCHAR(50)) - NOT NULL
+- Emissioni CO2 (DECIMAL(6, 2)) - NOT NULL
+- Carburante (VARCHAR(50)) - NOT NULL
+- Chilometri (INT) - DEFAULT(0)
+- Data immatricolazione (DATE) - NULL
+- Stato (VARCHAR(50)) - NULL
+- Accessori (TEXT) - NULL
+- Prezzo (INT) - NOT NULL
+- Disponibilità (TINYINT) - DEFAULT(1)
 `
